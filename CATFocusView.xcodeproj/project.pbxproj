@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DEF4AD61D12FA5300F18BF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF4AD51D12FA5300F18BF4 /* main.m */; };
+		5DEF4AD91D12FA5300F18BF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF4AD81D12FA5300F18BF4 /* AppDelegate.m */; };
+		5DEF4ADC1D12FA5300F18BF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF4ADB1D12FA5300F18BF4 /* ViewController.m */; };
+		5DEF4ADF1D12FA5300F18BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF4ADD1D12FA5300F18BF4 /* Main.storyboard */; };
+		5DEF4AE11D12FA5300F18BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF4AE01D12FA5300F18BF4 /* Assets.xcassets */; };
+		5DEF4AE41D12FA5300F18BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEF4AE21D12FA5300F18BF4 /* LaunchScreen.storyboard */; };
+		5DEF4AEF1D12FA5400F18BF4 /* CATFocusViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF4AEE1D12FA5400F18BF4 /* CATFocusViewTests.m */; };
+		5DEF4AFA1D12FA5400F18BF4 /* CATFocusViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF4AF91D12FA5400F18BF4 /* CATFocusViewUITests.m */; };
+		5DEF4B0A1D12FA7300F18BF4 /* CATFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF4B091D12FA7300F18BF4 /* CATFocusView.m */; };
+		5DEF4B0D1D12FAA300F18BF4 /* CATFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEF4B0C1D12FAA300F18BF4 /* CATFocus.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DEF4AEB1D12FA5400F18BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DEF4AC91D12FA5300F18BF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DEF4AD01D12FA5300F18BF4;
+			remoteInfo = CATFocusView;
+		};
+		5DEF4AF61D12FA5400F18BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DEF4AC91D12FA5300F18BF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DEF4AD01D12FA5300F18BF4;
+			remoteInfo = CATFocusView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DEF4AD11D12FA5300F18BF4 /* CATFocusView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATFocusView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEF4AD51D12FA5300F18BF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DEF4AD71D12FA5300F18BF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DEF4AD81D12FA5300F18BF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DEF4ADA1D12FA5300F18BF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DEF4ADB1D12FA5300F18BF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DEF4ADE1D12FA5300F18BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DEF4AE01D12FA5300F18BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DEF4AE31D12FA5300F18BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DEF4AE51D12FA5300F18BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEF4AEA1D12FA5400F18BF4 /* CATFocusViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATFocusViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEF4AEE1D12FA5400F18BF4 /* CATFocusViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATFocusViewTests.m; sourceTree = "<group>"; };
+		5DEF4AF01D12FA5400F18BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEF4AF51D12FA5400F18BF4 /* CATFocusViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATFocusViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEF4AF91D12FA5400F18BF4 /* CATFocusViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATFocusViewUITests.m; sourceTree = "<group>"; };
+		5DEF4AFB1D12FA5400F18BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEF4B081D12FA7300F18BF4 /* CATFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATFocusView.h; sourceTree = "<group>"; };
+		5DEF4B091D12FA7300F18BF4 /* CATFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATFocusView.m; sourceTree = "<group>"; };
+		5DEF4B0B1D12FAA300F18BF4 /* CATFocus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATFocus.h; sourceTree = "<group>"; };
+		5DEF4B0C1D12FAA300F18BF4 /* CATFocus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATFocus.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DEF4ACE1D12FA5300F18BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DEF4AE71D12FA5400F18BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DEF4AF21D12FA5400F18BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DEF4AC81D12FA5300F18BF4 = {
+			isa = PBXGroup;
+			children = (
+				5DEF4AD31D12FA5300F18BF4 /* CATFocusView */,
+				5DEF4AED1D12FA5400F18BF4 /* CATFocusViewTests */,
+				5DEF4AF81D12FA5400F18BF4 /* CATFocusViewUITests */,
+				5DEF4AD21D12FA5300F18BF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DEF4AD21D12FA5300F18BF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF4AD11D12FA5300F18BF4 /* CATFocusView.app */,
+				5DEF4AEA1D12FA5400F18BF4 /* CATFocusViewTests.xctest */,
+				5DEF4AF51D12FA5400F18BF4 /* CATFocusViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DEF4AD31D12FA5300F18BF4 /* CATFocusView */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF4B071D12FA6A00F18BF4 /* CATFocusView */,
+				5DEF4AD71D12FA5300F18BF4 /* AppDelegate.h */,
+				5DEF4AD81D12FA5300F18BF4 /* AppDelegate.m */,
+				5DEF4ADA1D12FA5300F18BF4 /* ViewController.h */,
+				5DEF4ADB1D12FA5300F18BF4 /* ViewController.m */,
+				5DEF4ADD1D12FA5300F18BF4 /* Main.storyboard */,
+				5DEF4AE01D12FA5300F18BF4 /* Assets.xcassets */,
+				5DEF4AE21D12FA5300F18BF4 /* LaunchScreen.storyboard */,
+				5DEF4AE51D12FA5300F18BF4 /* Info.plist */,
+				5DEF4AD41D12FA5300F18BF4 /* Supporting Files */,
+			);
+			path = CATFocusView;
+			sourceTree = "<group>";
+		};
+		5DEF4AD41D12FA5300F18BF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF4AD51D12FA5300F18BF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DEF4AED1D12FA5400F18BF4 /* CATFocusViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF4AEE1D12FA5400F18BF4 /* CATFocusViewTests.m */,
+				5DEF4AF01D12FA5400F18BF4 /* Info.plist */,
+			);
+			path = CATFocusViewTests;
+			sourceTree = "<group>";
+		};
+		5DEF4AF81D12FA5400F18BF4 /* CATFocusViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF4AF91D12FA5400F18BF4 /* CATFocusViewUITests.m */,
+				5DEF4AFB1D12FA5400F18BF4 /* Info.plist */,
+			);
+			path = CATFocusViewUITests;
+			sourceTree = "<group>";
+		};
+		5DEF4B071D12FA6A00F18BF4 /* CATFocusView */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF4B0B1D12FAA300F18BF4 /* CATFocus.h */,
+				5DEF4B0C1D12FAA300F18BF4 /* CATFocus.m */,
+				5DEF4B081D12FA7300F18BF4 /* CATFocusView.h */,
+				5DEF4B091D12FA7300F18BF4 /* CATFocusView.m */,
+			);
+			path = CATFocusView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DEF4AD01D12FA5300F18BF4 /* CATFocusView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DEF4AFE1D12FA5400F18BF4 /* Build configuration list for PBXNativeTarget "CATFocusView" */;
+			buildPhases = (
+				5DEF4ACD1D12FA5300F18BF4 /* Sources */,
+				5DEF4ACE1D12FA5300F18BF4 /* Frameworks */,
+				5DEF4ACF1D12FA5300F18BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CATFocusView;
+			productName = CATFocusView;
+			productReference = 5DEF4AD11D12FA5300F18BF4 /* CATFocusView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DEF4AE91D12FA5400F18BF4 /* CATFocusViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DEF4B011D12FA5400F18BF4 /* Build configuration list for PBXNativeTarget "CATFocusViewTests" */;
+			buildPhases = (
+				5DEF4AE61D12FA5400F18BF4 /* Sources */,
+				5DEF4AE71D12FA5400F18BF4 /* Frameworks */,
+				5DEF4AE81D12FA5400F18BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DEF4AEC1D12FA5400F18BF4 /* PBXTargetDependency */,
+			);
+			name = CATFocusViewTests;
+			productName = CATFocusViewTests;
+			productReference = 5DEF4AEA1D12FA5400F18BF4 /* CATFocusViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DEF4AF41D12FA5400F18BF4 /* CATFocusViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DEF4B041D12FA5400F18BF4 /* Build configuration list for PBXNativeTarget "CATFocusViewUITests" */;
+			buildPhases = (
+				5DEF4AF11D12FA5400F18BF4 /* Sources */,
+				5DEF4AF21D12FA5400F18BF4 /* Frameworks */,
+				5DEF4AF31D12FA5400F18BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DEF4AF71D12FA5400F18BF4 /* PBXTargetDependency */,
+			);
+			name = CATFocusViewUITests;
+			productName = CATFocusViewUITests;
+			productReference = 5DEF4AF51D12FA5400F18BF4 /* CATFocusViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DEF4AC91D12FA5300F18BF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = catch;
+				TargetAttributes = {
+					5DEF4AD01D12FA5300F18BF4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5DEF4AE91D12FA5400F18BF4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5DEF4AD01D12FA5300F18BF4;
+					};
+					5DEF4AF41D12FA5400F18BF4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5DEF4AD01D12FA5300F18BF4;
+					};
+				};
+			};
+			buildConfigurationList = 5DEF4ACC1D12FA5300F18BF4 /* Build configuration list for PBXProject "CATFocusView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DEF4AC81D12FA5300F18BF4;
+			productRefGroup = 5DEF4AD21D12FA5300F18BF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DEF4AD01D12FA5300F18BF4 /* CATFocusView */,
+				5DEF4AE91D12FA5400F18BF4 /* CATFocusViewTests */,
+				5DEF4AF41D12FA5400F18BF4 /* CATFocusViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DEF4ACF1D12FA5300F18BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEF4AE41D12FA5300F18BF4 /* LaunchScreen.storyboard in Resources */,
+				5DEF4AE11D12FA5300F18BF4 /* Assets.xcassets in Resources */,
+				5DEF4ADF1D12FA5300F18BF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DEF4AE81D12FA5400F18BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DEF4AF31D12FA5400F18BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DEF4ACD1D12FA5300F18BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEF4B0A1D12FA7300F18BF4 /* CATFocusView.m in Sources */,
+				5DEF4ADC1D12FA5300F18BF4 /* ViewController.m in Sources */,
+				5DEF4B0D1D12FAA300F18BF4 /* CATFocus.m in Sources */,
+				5DEF4AD91D12FA5300F18BF4 /* AppDelegate.m in Sources */,
+				5DEF4AD61D12FA5300F18BF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DEF4AE61D12FA5400F18BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEF4AEF1D12FA5400F18BF4 /* CATFocusViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DEF4AF11D12FA5400F18BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEF4AFA1D12FA5400F18BF4 /* CATFocusViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DEF4AEC1D12FA5400F18BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DEF4AD01D12FA5300F18BF4 /* CATFocusView */;
+			targetProxy = 5DEF4AEB1D12FA5400F18BF4 /* PBXContainerItemProxy */;
+		};
+		5DEF4AF71D12FA5400F18BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DEF4AD01D12FA5300F18BF4 /* CATFocusView */;
+			targetProxy = 5DEF4AF61D12FA5400F18BF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DEF4ADD1D12FA5300F18BF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DEF4ADE1D12FA5300F18BF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DEF4AE21D12FA5300F18BF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DEF4AE31D12FA5300F18BF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DEF4AFC1D12FA5400F18BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DEF4AFD1D12FA5400F18BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DEF4AFF1D12FA5400F18BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CATFocusView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.CATFocusView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DEF4B001D12FA5400F18BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CATFocusView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.CATFocusView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DEF4B021D12FA5400F18BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CATFocusViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.CATFocusViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CATFocusView.app/CATFocusView";
+			};
+			name = Debug;
+		};
+		5DEF4B031D12FA5400F18BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CATFocusViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.CATFocusViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CATFocusView.app/CATFocusView";
+			};
+			name = Release;
+		};
+		5DEF4B051D12FA5400F18BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CATFocusViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.CATFocusViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CATFocusView;
+			};
+			name = Debug;
+		};
+		5DEF4B061D12FA5400F18BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CATFocusViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.CATFocusViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CATFocusView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DEF4ACC1D12FA5300F18BF4 /* Build configuration list for PBXProject "CATFocusView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEF4AFC1D12FA5400F18BF4 /* Debug */,
+				5DEF4AFD1D12FA5400F18BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DEF4AFE1D12FA5400F18BF4 /* Build configuration list for PBXNativeTarget "CATFocusView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEF4AFF1D12FA5400F18BF4 /* Debug */,
+				5DEF4B001D12FA5400F18BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DEF4B011D12FA5400F18BF4 /* Build configuration list for PBXNativeTarget "CATFocusViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEF4B021D12FA5400F18BF4 /* Debug */,
+				5DEF4B031D12FA5400F18BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DEF4B041D12FA5400F18BF4 /* Build configuration list for PBXNativeTarget "CATFocusViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEF4B051D12FA5400F18BF4 /* Debug */,
+				5DEF4B061D12FA5400F18BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DEF4AC91D12FA5300F18BF4 /* Project object */;
+}
