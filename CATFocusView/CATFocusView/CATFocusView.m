@@ -73,6 +73,16 @@
     return [self addRectFocusOnRect:rect cornerRadius:0.0f];
 }
 
+-(void)addCustomView:(UIView *)view{
+    [_arrayCustomView addObject:view];
+    [self setNeedsDisplay];
+}
+
+-(void)addCustomView:(UIView *)view onRect:(CGRect)rect{
+    view.frame = rect;
+    [self addCustomView:view];
+}
+
 -(void)addCustomView:(UIView *)view withFocus:(CATFocus *)focus position:(CATFocusPosition)position offset:(CATOffset)offset{
     CGRect frame = focus.frame;
     CGFloat centerX = frame.origin.x+frame.size.width*0.5f;
@@ -100,6 +110,8 @@
     view.frame = CATRectWithOffset(newFrame,offset);
     
     [_arrayCustomView addObject:view];
+    
+    [self setNeedsDisplay];
 }
 
 -(void)removeFocus:(CATFocus *)focus{

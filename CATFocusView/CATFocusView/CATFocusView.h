@@ -74,6 +74,21 @@ typedef NS_ENUM(NSInteger, CATFocusPosition){
 /**
  *  Add CustomView
  *
+ *  @param view CustomView
+ */
+-(void)addCustomView:(UIView *)view;
+
+/**
+ *  Add CustomView
+ *
+ *  @param view     CustomView
+ *  @param rect     Rect
+ */
+-(void)addCustomView:(UIView *)view onRect:(CGRect)rect;
+
+/**
+ *  Add CustomView
+ *
  *  @param view     CustomView
  *  @param focus    Focus
  *  @param position Position
